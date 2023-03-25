@@ -3,4 +3,4 @@ const fontText = document.getElementById('text');
 
 rangeInput.addEventListener('input', () => {
     fontText.style.fontSize = `${rangeInput.value}px`;
-})
+});
